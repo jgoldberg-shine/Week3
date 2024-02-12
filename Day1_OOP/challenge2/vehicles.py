@@ -20,3 +20,7 @@ class Train(Vehicle):
     def track(self):
         print(f"A {self.type} travels on a track")
 
+class flyingCar(Car, Plane):
+    def both(self):
+        print(f"A {self.type} can go a road and in the air")
+
