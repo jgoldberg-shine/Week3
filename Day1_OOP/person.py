@@ -4,9 +4,11 @@ class Person():
         self.age = person_age
         self.height = person_height
 
-class Superhero:
-    def __init__(self, hero_name, hero_identity, hero_power, hero_enemy):
-        self.name = hero_name
-        self.identity = hero_identity
-        self.power = hero_power
-        self.enemy = hero_enemy
+    def introduce(self):
+        print(f"My name is {self.name} I am {self.age} and I am {self.height}")
+# class Superhero:
+#     def __init__(self, hero_name, hero_identity, hero_power, hero_enemy):
+#         self.name = hero_name
+#         self.identity = hero_identity
+#         self.power = hero_power
+#         self.enemy = hero_enemy

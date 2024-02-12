@@ -8,6 +8,6 @@
 from person import Superhero
 batman = Superhero("Batman", "Bruce", "Strong", "The Joker")
 
-print(batman.name, batman.identity, batman.power, batman.enemy)
+# print(batman.name, batman.identity, batman.power, batman.enemy)
 
 print(f"{batman.name}'s real name is {batman.identity}. He is {batman.power} and his arch enemy is {batman.enemy}")
